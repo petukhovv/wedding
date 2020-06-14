@@ -4,7 +4,7 @@ import parse from "html-react-parser";
 import ScrollUpButton from "react-scroll-up-button";
 
 export class Footer extends Component<{}> {
-    title = "&copy; 2020. Anna & Victor's wedding."
+    title = "&copy; 2020. Anna & Victor's wedding. <a href='https://github.com/PetukhovVictor/wedding' target='_blank'>GitHub</a>"
 
     renderCopyrights() {
         return (
