@@ -130,12 +130,14 @@ export class LoveStory extends Component<{}, LoveStoryState> {
         const overlayClass = index % 2 != 0 ? "overlay-2" : ""
         const zIndex = this.stories.length - index
 
-        let offsetFromPreviousStory: number = 0
+        let offsetFromPreviousStory
 
         if (index != 0) {
             const $previousStory = $(`.timeline .animate-box:eq(${index - 1}) .timeline-panel`)
             const $beforePreviousStory = $(`.timeline .animate-box:eq(${index - 2}) .timeline-panel`)
             const previousStoryHeight = $previousStory.outerHeight()
+
+            offsetFromPreviousStory = -previousStoryHeight + this.badgeHeight
 
             if (index > 1) {
                 const previousStoryTopOffset = $previousStory.offset().top
@@ -154,8 +156,6 @@ export class LoveStory extends Component<{}, LoveStoryState> {
                         offsetFromPreviousStory = this.storiesOffset
                     }
                 }
-            } else {
-                offsetFromPreviousStory = -previousStoryHeight + this.badgeHeight
             }
         }
 
