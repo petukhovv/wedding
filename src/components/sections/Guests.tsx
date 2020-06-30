@@ -20,6 +20,7 @@ export class Guests extends Component<{}> {
         { name: "Наталья Боровик", photo: "./images/photos/guests/Borovik_Natalia.jpg" },
         { name: "Артем Боровик", photo: "./images/photos/guests/Borovik_Artem.jpg" },
         { name: "Елена Полчанова", photo: "./images/photos/guests/Polchanova_Elena.jpg" },
+        { name: "Михаил Карапетян", photo: "./images/photos/guests/Michail_Carapetyan.jpg" },
         { name: "Ольга Бельцева", photo: "./images/photos/guests/Olga_Belceva.jpg" },
         { name: "Сергей Бельцев", photo: this.boyDefaultAvatar },
         { name: "Ольга Кириллова", photo: "./images/photos/guests/Kirillova_Olga.jpg" },
@@ -29,7 +30,6 @@ export class Guests extends Component<{}> {
         { name: "Алина Устюгова", photo: "./images/photos/guests/Ustuygova_Alina.jpg" },
         { name: "Павел Молчанов", photo: "./images/photos/guests/Molchanov_Pavel.jpg" },
         { name: "Александр Чехомов", photo: "./images/photos/guests/Chekhomov_Aleksandr.jpg" },
-        { name: "Юлия Бараненко", photo: this.girlDefaultAvatar },
         { name: "Софья Василевская", photo: "./images/photos/guests/Vasilevskaya_Sofa.jpg" },
         { name: "Евгений Емельянов", photo: "./images/photos/guests/Emelyanov_Evgeny.jpg" }
     ]
