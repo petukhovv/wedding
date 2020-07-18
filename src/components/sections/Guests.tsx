@@ -25,7 +25,6 @@ export class Guests extends Component<{}> {
         { name: "Сергей Бельцев", photo: this.boyDefaultAvatar },
         { name: "Ольга Кириллова", photo: "./images/photos/guests/Kirillova_Olga.jpg" },
         { name: "Михаил Осотов", photo: "./images/photos/guests/Osotov_Michael.jpg" },
-        { name: "Ксения Иванова", photo: "./images/photos/guests/Vavilova_Kseniya.jpg" },
         { name: "Вероника Талаева", photo: "./images/photos/guests/Talaeva_Veronika.png" },
         { name: "Алина Устюгова", photo: "./images/photos/guests/Ustuygova_Alina.jpg" },
         { name: "Павел Молчанов", photo: "./images/photos/guests/Molchanov_Pavel.jpg" },
@@ -44,16 +43,12 @@ export class Guests extends Component<{}> {
         { name: "Екатерина Рогатова", photo: "./images/photos/guests/Rogatova_Katya.jpg" },
         { name: "Анастасия Дорошенко", photo: "./images/photos/guests/Doroshenko_Nastya.jpg" },
         { name: "Денис Шестоперов", photo: "./images/photos/guests/Shestoperov_Denis.jpg" },
-        { name: "Альбина Баева", photo: "./images/photos/guests/Baeva_Alya.jpg" },
-        { name: "Вадим Соломович", photo: "./images/photos/guests/Solomovich_Vadim.jpg" },
         { name: "Ксения Захарова", photo: "./images/photos/guests/Zakharova_Ksyusha.jpg" },
         { name: "Кирилл Ушаков", photo: "./images/photos/guests/Ushakov_Kirill.jpg" },
         { name: "Елизавета Бородулина", photo: "./images/photos/guests/Borodulina_Elizaveta.jpg" },
         { name: "Алексей Форманюк", photo: "./images/photos/guests/Formanyuk_Lesha.jpg" },
         { name: "Максим Козлов", photo: "./images/photos/guests/Kozlov_Maksim.jpg" },
-        { name: "Диана Козлова", photo: "./images/photos/guests/Kozlova_Diana.jpg" },
-        { name: "Павел Метиков", photo: "./images/photos/guests/Metickov_Pavel.jpg" },
-        { name: "Ангелина Калягина", photo: "./images/photos/guests/Kalyagina_Angelina.jpg" }
+        { name: "Диана Козлова", photo: "./images/photos/guests/Kozlova_Diana.jpg" }
     ]
 
     renderGuestsBlockDescription(title: string) {
