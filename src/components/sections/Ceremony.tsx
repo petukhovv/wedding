@@ -50,7 +50,7 @@ export class Ceremony extends Component<{}> {
             detailsTitle: "Автобус",
             detailsButtonTitle: "Маршрут автобуса",
             details: `
-                <p>Маршрут движения автобуса представлен на карте. Приблизительное время в пути от пл. Победы до места проведения – 2.5 часа.</p>
+                <p>Маршрут движения автобуса представлен на карте. Приблизительное время в пути от пл. Победы до места проведения – 1:40.</p>
                 <p>До даты свадьбы возможны корректировки в маршруте автобуса.</p>
                 <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ad7fd7798c4fb9a1bea68ffcf0393659abc38c044d5ec4cd8ab08ca951ae9291a&amp;source=constructor" width="100%" height="580" frameborder="0" />
             `
