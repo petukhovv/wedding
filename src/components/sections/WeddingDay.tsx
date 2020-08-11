@@ -50,6 +50,10 @@ export class WeddingDay extends Component<{}, WeddingDayState> {
 
     renderRemainingTime() {
         const remainingTime = this.state.remainingTime
+
+        if (remainingTime < 0)
+            return ""
+
         const remainingDays = Math.floor(remainingTime / (1000 * 60 * 60 * 24));
         const remainingHours = Math.floor((remainingTime % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
         const remainingMinutes = Math.floor((remainingTime % (1000 * 60 * 60)) / (1000 * 60));
